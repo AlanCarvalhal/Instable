@@ -9,13 +9,14 @@ public class Click : MonoBehaviour
     bool mouseOnObject;
     public Text missao;
     public Text dica;
+    public static bool tutorial = false;
 
     [Range(0.1f, 10.0f)] private float distancia = 4.5f;
     private GameObject Jogador;
 
     void Start()
     {
-        //texto setado como falso para nao aparecer na tela no inico do jogo
+        //texto setado como falso para nao aparecer na tela no inicio do jogo
         missao.enabled = false;
         //reconhecer o jogador
         Jogador = GameObject.FindWithTag("Player");
@@ -28,16 +29,17 @@ public class Click : MonoBehaviour
         {
             missao.enabled = true;
             dica.enabled = false;
+            tutorial = true;
         }
     }
 
-    //se olhar pro item a booleana será verdadeira
+    //se olhar pro item a booleana serï¿½ verdadeira
     private void OnMouseEnter()
     {
         mouseOnObject = true;
     }
 
-    //se parar de olhar pro item a booleana será falsa
+    //se parar de olhar pro item a booleana serï¿½ falsa
     private void OnMouseExit()
     {
         mouseOnObject = false;
