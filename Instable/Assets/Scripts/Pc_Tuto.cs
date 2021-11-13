@@ -21,13 +21,14 @@ public class Pc_Tuto : MonoBehaviour
 
     void Update()
     {
-        if (Minerar_Tuto.azulita_tutorial == 7 && mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
-        {
-            //GameObject.Find("generator").SetActive(true);
-        }
-        if (mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
+        /*if (Minerar_Tuto.azulita_tutorial == 7 && mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
             GameObject.Find("generator").SetActive(true);
+            missao.text = "Entre na Nave";
+        }*/
+        if (mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
+        {
+            //GameObject.Find("generator").SetActive(true);
             missao.enabled = true;
             dica.enabled = false;
             tutorial = true;

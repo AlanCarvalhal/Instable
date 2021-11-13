@@ -22,10 +22,14 @@ public class Minerar_Tuto : MonoBehaviour
     void Update()
     {
         //caso o jogador esteja mirando no objeto, em uma distancia menor que a definida e aperte F: inicia a missao do tutorial fazendo a dica sumir da tela
+        /*if (azulita_tutorial == 7)
+        {
+            Pc_Tuto.missao.text = "Interaja com o computador para construir um gerador no centro da base";
+        }*/
         if(Pc_Tuto.tutorial == true && mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
             transform.localScale = transform.localScale - resize; 
-            azulita_tutorial++;                      
+            //azulita_tutorial++;                      
         }
     }
 
