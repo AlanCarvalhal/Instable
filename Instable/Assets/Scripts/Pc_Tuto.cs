@@ -5,13 +5,16 @@ using UnityEngine.UI;
 
 public class Pc_Tuto : MonoBehaviour
 {
-    // declaracao de variaveis
-    bool mouseOnObject;
+    bool mouseOnObject;    
+    public AudioSource construindo;
+    public AudioSource nave_pousando;
     public Text missao;
     public Text dica;
     public static bool tutorial = false;
     private GameObject Jogador;
-    [Range(0.1f, 10.0f)] private float distancia = 4.5f;
+    public GameObject gera;
+    public GameObject nave;
+    [Range(0.1f, 10.0f)] private float distancia = 3.5f;
 
     void Start()
     {
@@ -21,27 +24,27 @@ public class Pc_Tuto : MonoBehaviour
 
     void Update()
     {
-        /*if (Minerar_Tuto.azulita_tutorial == 7 && mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
+        if (Minerar_Tuto.azulita_tutorial == 7 && mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
-            GameObject.Find("generator").SetActive(true);
-            missao.text = "Entre na Nave";
-        }*/
-        if (mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
+            construindo.Play();
+            nave_pousando.PlayDelayed(3);
+            gera.SetActive(true);
+            nave.SetActive(true);
+            missao.text = "Tarefas a concluir:\n\nEntre na Nave";
+        }
+        if (Minerar_Tuto.azulita_tutorial != 7 && mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
-            //GameObject.Find("generator").SetActive(true);
             missao.enabled = true;
             dica.enabled = false;
             tutorial = true;
         }
     }
 
-    //se olhar pro item a booleana ser verdadeira
     private void OnMouseEnter()
     {
         mouseOnObject = true;
     }
 
-    //se parar de olhar pro item a booleana ser falsa
     private void OnMouseExit()
     {
         mouseOnObject = false;

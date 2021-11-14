@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ComoJogar.unity
     guid: 0bfe551dcc53aba4e8e7df3a22cb1742
+  - enabled: 1
+    path: Assets/Scenes/Base Espacial.unity
+    guid: 49e7d513456fed94d98484bbc98e2686
   m_configObjects: {}
