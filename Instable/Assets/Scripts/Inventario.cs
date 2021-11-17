@@ -1,11 +1,11 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
-    public static string[] inventario = new string[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};    
+    public static int[] inventario = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};    
 
     public static void Adicionar(int recurso, int valor)
     {
@@ -16,4 +16,4 @@ public class Inventario : MonoBehaviour
     {
        inventario[recurso] -= valor;
     }
-}*/
+}
