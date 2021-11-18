@@ -7,6 +7,7 @@ public class TrocaCenas : MonoBehaviour
 {
     bool mouseOnObject;    
     private GameObject Jogador;
+    public int cena;
     [Range(0.1f, 10.0f)] private float distancia = 7.5f;
 
     void Start()
@@ -18,7 +19,7 @@ public class TrocaCenas : MonoBehaviour
     {
         if (mouseOnObject == true && Vector3.Distance(transform.position, Jogador.transform.position) < distancia && Input.GetKeyDown(KeyCode.F))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(cena);
         }
     }
     private void OnMouseEnter()
