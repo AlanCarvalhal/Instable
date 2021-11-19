@@ -26,9 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Duna.unity
     guid: 082ce2b4155012f4a92c0aa0a53d0b77
-  - enabled: 1
-    path: Assets/Scenes/Rupture.unity
-    guid: 68e5167d8518d084086eef2ea0ee3269
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Nightmare.unity
     guid: 79ebf457bd65a9840934e7ef83608960

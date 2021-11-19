@@ -91,7 +91,7 @@
             {
                 "type": "UnityEditor.Polybrush.PrefabLoadout, Unity.Polybrush.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ScatteringEditor.userLoadout",
-                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"ba39a916f6364cf48aa2d8d55139bced\",\"type\":2},\"prefab\":{\"fileID\":1082170298752463200,\"guid\":\"6441b0378e763d94d92024e210f92e0c\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"ba39a916f6364cf48aa2d8d55139bced\",\"type\":2},\"prefab\":{\"fileID\":8425971611996543444,\"guid\":\"91c953c050c3a724ca3ad6c1a395f63e\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"ba39a916f6364cf48aa2d8d55139bced\",\"type\":2},\"prefab\":{\"fileID\":2617136244799030555,\"guid\":\"5bb6c4315ad95ba438a284e5c761fc8c\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"ba39a916f6364cf48aa2d8d55139bced\",\"type\":2},\"prefab\":{\"fileID\":8893373383843259662,\"guid\":\"95f09e46ef8b29b458ad76549d648ffc\",\"type\":3}}]}}"
+                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"45449a1f7f599dc489382e9c469e8006\",\"type\":2},\"prefab\":{\"fileID\":1740965529801879756,\"guid\":\"1c6d22081b3c1324c8849af37e9cb10f\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"45449a1f7f599dc489382e9c469e8006\",\"type\":2},\"prefab\":{\"fileID\":6843234478653007520,\"guid\":\"c7cd4554903668b49972df9f2ea05d46\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"45449a1f7f599dc489382e9c469e8006\",\"type\":2},\"prefab\":{\"fileID\":100000,\"guid\":\"200c7bff23e82db4c8efd0f74195fcf8\",\"type\":3}}]}}"
             },
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -106,7 +106,7 @@
             {
                 "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "RaiseLowerBrush.Strength",
-                "value": "{\"m_Value\":5.0}"
+                "value": "{\"m_Value\":100.0}"
             },
             {
                 "type": "System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
