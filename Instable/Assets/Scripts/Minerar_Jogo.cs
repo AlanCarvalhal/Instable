@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class Minerar_Jogo : MonoBehaviour
 {
 
-    bool mouseOnOre;
-    //Vector3 resize = new Vector3(1.0f, 1.0f, 1.0f);   
+    bool mouseOnOre;    
     private GameObject Jogador;
     public AudioSource minerando;
 
@@ -41,7 +40,7 @@ public class Minerar_Jogo : MonoBehaviour
                 //minerando.Play();
                 Inventario.Adicionar(2, 1);
             }
-            if (hit.transform.gameObject.CompareTag("obsidian"))
+            if (hit.transform.gameObject.CompareTag("ouro"))
             {
                 hit.transform.localScale -= new Vector3(1.0f, 1.0f, 1.0f);
                 //minerando.Play();
@@ -82,6 +81,30 @@ public class Minerar_Jogo : MonoBehaviour
                 hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
                 //minerando.Play();
                 Inventario.Adicionar(9, 1);
+            }
+            if (hit.transform.gameObject.CompareTag("flesh_ore"))
+            {
+                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
+                //minerando.Play();
+                Inventario.Adicionar(9, 1);
+            }
+            if (hit.transform.gameObject.CompareTag("tiger_ore"))
+            {
+                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
+                //minerando.Play();
+                Inventario.Adicionar(10, 1);
+            }
+            if (hit.transform.gameObject.CompareTag("dead_wood"))
+            {
+                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
+                //minerando.Play();
+                Inventario.Adicionar(11, 1);
+            }
+            if (hit.transform.gameObject.CompareTag("frozen_wood"))
+            {
+                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
+                //minerando.Play();
+                Inventario.Adicionar(12, 1);
             }
         }
     }

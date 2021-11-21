@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Inventario : MonoBehaviour
 {
-    public static int[] inventario = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};    
+    public static int[] inventario = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};    
 
     public static void Adicionar(int recurso, int valor)
     {

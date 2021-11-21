@@ -7,13 +7,17 @@ TagManager:
   - pedra
   - arvore
   - azulita
-  - obsidian
   - ferro
   - palmeira
   - cactus
   - rosita
   - fireore
   - esmeralda
+  - frozen_wood
+  - dead_wood
+  - tiger_ore
+  - flesh_ore
+  - ouro
   layers:
   - Default
   - TransparentFX
