@@ -15,7 +15,7 @@ MonoBehaviour:
   prefabs:
   - gameObject: {fileID: 5020754922677572047, guid: 636556ff1d226ff4cb41bf66bd7c7ad9, type: 3}
     settings:
-      m_Strength: 5
+      m_Strength: 55
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -45,70 +45,6 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: ouro_2
-  - gameObject: {fileID: 3194940318376566571, guid: 73c2fe286dc6a71499477ffac701d43e, type: 3}
-    settings:
-      m_Strength: 5
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: "minerio_de_on\xE7a01"
-  - gameObject: {fileID: 6886904701187173494, guid: 9953b0056d317be4189d6219822716e3, type: 3}
-    settings:
-      m_Strength: 5
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: "minerio_de_on\xE7a02"
-  - gameObject: {fileID: 7259585927512585218, guid: c8e2d7f87508dd24d9ede5309c05bf05, type: 3}
-    settings:
-      m_Strength: 5
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: minerio_de_carne01
-  - gameObject: {fileID: 2846245383381579570, guid: dd81753fe009df14f9e8cc24d4b32779, type: 3}
-    settings:
-      m_Strength: 5
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: minerio_de_carne02
   - gameObject: {fileID: 1805081675134198481, guid: b5335367f017029498f91e44048d3cd1, type: 3}
     settings:
       m_Strength: 25
@@ -141,3 +77,67 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: arvore morta
+  - gameObject: {fileID: 8181270350514998220, guid: a5c7c5ed5facbb345b72e758b26283cf, type: 3}
+    settings:
+      m_Strength: 5
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: carne_1
+  - gameObject: {fileID: 7198921182185917706, guid: 30c3467d70015614689e2bbc51e7f746, type: 3}
+    settings:
+      m_Strength: 5
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 90, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 1
+      m_ZScaleBool: 0
+    name: carne_2
+  - gameObject: {fileID: 4317834582210491261, guid: ca0afd2ec9d09a84abe3463c32618a00, type: 3}
+    settings:
+      m_Strength: 5
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: "on\xE7a_1"
+  - gameObject: {fileID: 913087663638792835, guid: b236c6a61bd9a2c44aacf507fffb5bba, type: 3}
+    settings:
+      m_Strength: 5
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: "on\xE7a_2"
