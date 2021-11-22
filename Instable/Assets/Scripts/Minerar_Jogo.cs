@@ -80,31 +80,31 @@ public class Minerar_Jogo : MonoBehaviour
             {
                 hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
                 //minerando.Play();
-                Inventario.Adicionar(9, 1);
-            }
-            if (hit.transform.gameObject.CompareTag("flesh_ore"))
-            {
-                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
-                //minerando.Play();
-                Inventario.Adicionar(9, 1);
-            }
-            if (hit.transform.gameObject.CompareTag("tiger_ore"))
-            {
-                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
-                //minerando.Play();
                 Inventario.Adicionar(10, 1);
             }
-            if (hit.transform.gameObject.CompareTag("dead_wood"))
+            if (hit.transform.gameObject.CompareTag("ouro"))
             {
                 hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
                 //minerando.Play();
                 Inventario.Adicionar(11, 1);
             }
-            if (hit.transform.gameObject.CompareTag("frozen_wood"))
+            if (hit.transform.gameObject.CompareTag("grafite"))
             {
                 hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
                 //minerando.Play();
                 Inventario.Adicionar(12, 1);
+            }
+            if (hit.transform.gameObject.CompareTag("dead_wood"))
+            {
+                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
+                //minerando.Play();
+                Inventario.Adicionar(13, 1);
+            }
+            if (hit.transform.gameObject.CompareTag("perolado"))
+            {
+                hit.transform.localScale -= new Vector3(4.0f, 4.0f, 4.0f);
+                //minerando.Play();
+                Inventario.Adicionar(14, 1);
             }
         }
     }

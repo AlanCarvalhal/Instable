@@ -15,9 +15,9 @@ TagManager:
   - esmeralda
   - frozen_wood
   - dead_wood
-  - tiger_ore
-  - flesh_ore
   - ouro
+  - perolado
+  - grafite
   layers:
   - Default
   - TransparentFX
